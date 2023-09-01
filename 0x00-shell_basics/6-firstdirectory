@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Check if the directory exists
 if [ ! -d "/tmp/my_first_directory" ]; then
     mkdir /tmp/my_first_directory
 fi
